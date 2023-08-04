@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+   background-size:auto;
+   background-color: hotpink;
+    background-image: url(IMG_1375.JPG);
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: round;
+    overflow: hidden;
+    background-blend-mode:luminosity;
+}
+#head{
+    position: relative;
+    display: flex;
+    margin: 0px 6px;
+    background-color: rgb(238, 231, 231);
+    margin: 0;
+    justify-content: space-between;
+    border-bottom: 2px solid orangered;
+    
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    margin: 2px 5px;
+}
+.logo_text{
+    margin-left: -21vw;
+    margin-top: -26px;
+    color: red;
+    font-weight: 800;
+    font-size: 19px;
+}
+#head p{
+    margin-top: 49px;
+    margin-left: -34vw;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -45px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 16px;
+    margin: 6px;
+    
+}
+.nav a:hover{
+    color: red;
+}
+.sign{
+    margin: 23px 36px;
+    
+}
+.sign button{
+    padding: 9px 12px;
+    margin: 5px;
+    border-radius: 9px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+}
+.sign button:hover{
+  filter: brightness(50%);
+}
+@media (max-width:992px) {
+    #head{
+    display: flex;
+    position: relative;
+    background-color: rgb(238, 231, 231);
+
+    
+}
+    nav{
+        visibility: hidden;
+    }
+    .sign{
+        position: absolute;
+        display: flex;
+        margin: 4px 53vw;
+    }
+    .sign button{
+        padding: 7px 19px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .logo_text{
+        margin:-6vh -7.3vw;
+        font-size: 12px;
+    }
+    #head p{
+        
+     position: absolute;
+     margin-left: 13vw;
+     margin-top: 35px;
+        font-size: 12px;
+        font-weight: 200;
+        color: black;
+    }
+    .container{
+        position: absolute;
+        margin: 12vh 10vw;
+        width: 80%;
+        height: 73vh;
+     
+    }

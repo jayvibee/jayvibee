@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: aquamarine;
+    background-image: url(IMG_1374.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: round;
+    overflow: hidden;
+    background-blend-mode:luminosity;
+}
+#head{
+    position: relative;
+    display: flex;
+    margin: 0px 0px;
+    background-color: rgb(238, 231, 231);
+    justify-content: space-between;
+    border-bottom: 2px solid orangered;
+    height: 12vh;
+}
+
+#head .logo{
+width: 90px;
+height: 90px;
+margin: 2px 5px;
+}
+#head .logo_text{
+position: absolute;
+margin-left: -93vw;
+width: 100%;
+margin-top: 18px;
+color: red;
+font-weight: 800;
+font-size: 19px;
+}
+#head .pop{
+position: absolute;
+margin-top: 49px;
+margin-left: 8vw;
+width: 100%;
+font-size: 16px;
+font-weight: 400;
+color: black;
+}
+#head .nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 34vw;
+margin-top: 15px;
+position: absolute;
+visibility: visible;
+}
+.nav a{
+text-decoration: none;
+color: blueviolet;
+font-weight: 800;
+font-size: 16px;
+margin: 6px;
+
+}
+.nav a:hover{
+color: red;
+}
+#head .sign{
+margin: 23px 76vw;
+position: absolute;
+
+}
+.sign button{
+padding: 9px 12px;
+margin: 5px;
+border-radius: 9px;
+background-color: blueviolet;
+color: white;
+font-weight: 700;
+}
+.sign button:hover{
+filter: brightness(50%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    min-height: 40vh;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 9vh 23vw;
+    width: 50%;
+    background-color:olivedrab;
+    background: linear-gradient(olivedrab);
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px white,
+                3px 3px 6px 9px rgb(122, 122, 122);
+}
+.profile{
+    height: 150px;
+    margin-top: 12px;
+}
+input{
+    border: none;
+    
+}
+.name input{
+    padding-left: 19px;
+}
+.email input{
+    padding-left: 19px;
+}
+.pass input{
+    padding-left: 19px;
+}
+.input{
+    padding-top: 15px;
+    width: 20vw;
+    height: 4vh;
+    margin: 5px 25px;
+    border-radius: 9px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.btn{
+    padding: 12px 23px;
+    margin-top: 21px;
+    background-color:orange;
+    border-radius: 9px;
+   margin-bottom: 30px;
+    font-size: 15px;
+    margin-left: 21vw;
+}
+.btn:hover{
+    background-color: olivedrab;
+    color: white;
+    border: 3px solid red;
+}
+#head .rad{
+    visibility: hidden;
+}
+#head .rad:hover{
+    background-color: red;
+}
+#head .yo{
+    position: absolute;
+    display: block;
+    margin-left: 5vw;
+    width: 90%;
+    margin-top: 31px;
+    align-items: center;
+    background-color: teal;
+    border-radius: 12px;
+    height: 15vh;
+    visibility: hidden;
+}
+.yo li{
+    margin-top: 8px;
+    padding-left: 12px;
+    color: white;
+    font-weight: 600;
+}
+.yo li:hover{
+    background-color: coral;
+}
+.wrong{
+    visibility: hidden;
+}
+
+@media (max-width:1024px) {
+    #head{
+        height: 1vh;
+        padding-bottom: 10vh;
+        position: relative;
+        display: flex;
+        margin: 0px 6px;
+        background-color: rgb(238, 231, 231);
+        margin: 0;
+        border-bottom: 2px solid orangered;
+}
+#head .yo{
+    position: absolute;
+    display: block;
+    margin-left: 59vw;
+    width: 40%;
+    margin-top: 10vh;
+    align-items: center;
+    background-color: teal;
+    border-radius: 12px;
+    height: 28vh;
+    visibility:visible;
+    z-index: 3;
+    padding-top: 12px;
+}
+.wrong{
+    visibility: hidden;
+    display: none;
+}
+   #head .nav{
+        visibility:hidden;
+        
+    }
+    #head .sign{
+        position: absolute;
+        display: flex;
+        margin: 13px 55vw;
+        
+    }
+    .sign button{
+        padding: 7px 19px;
+        visibility: hidden;
+    }
+    #head .logo{
+        position: absolute;
+        width: 80px;
+        height: 78px;
+    }
+   #head .logo_text{
+    position: absolute;
+        margin:2vh -28vw;
+        font-size: 16px;
+        list-style: none;
+        text-decoration: none;
+    }
+   #head .pop{
+        
+     position: absolute;
+     margin-left: 10vw;
+     margin-top: 34px;
+        font-size: 14px;
+        font-weight: 200;
+        color: black;
+    }
+  #head .rad{
+    visibility: visible;
+  }
+  #head .rad:hover{
+    background-color: red;
+  }
+    .profile{
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        margin-left: 31vw;
+    }
+    .input{
+        padding-top: 10px;
+        width: 32vw;
+        height: 4vh;
+        margin: 5px 25px;
+       display: grid;
+       grid-row: auto auto;
+    }
+    .name, 
+    .email,
+    .pass{
+        display: flex;
+    }
+    .container{
+        display: grid;
+        grid-template: auto auto;
+        width: 90%;
+        margin-left: 5vw;
+    
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        padding: 12px 3px;
+      width: 40%;
+      margin-left: 25vw;
+    }
+    #head .rad{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-left:  35vw;
+    }
+}

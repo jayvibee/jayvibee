@@ -1,0 +1,936 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+   background-size:auto;
+   background-color: hotpink;
+    background-image: url(IMG_1375.JPG);
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: round;
+    overflow: hidden;
+    background-blend-mode:luminosity;
+}
+
+
+
+#head{
+    position: relative;
+    display: flex;
+    margin: 0px 0px;
+    background-color: rgb(238, 231, 231);
+    justify-content: space-between;
+    border-bottom: 2px solid orangered;
+    height: 12vh;
+}
+
+#head .logo{
+width: 90px;
+height: 90px;
+margin: 2px 5px;
+}
+#head .logo_text{
+position: absolute;
+margin-left: -98vw;
+width: 100%;
+margin-top: -20px;
+color: red;
+font-weight: 800;
+font-size: 19px;
+}
+#head .pop{
+position: absolute;
+margin-top: 49px;
+margin-left: 8vw;
+width: 100%;
+font-size: 16px;
+font-weight: 400;
+color: black;
+}
+#head .nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 34vw;
+margin-top: 15px;
+position: absolute;
+visibility: visible;
+}
+.nav a{
+text-decoration: none;
+color: blueviolet;
+font-weight: 800;
+font-size: 16px;
+margin: 6px;
+
+}
+.nav a:hover{
+color: red;
+}
+#head .sign{
+margin: 23px 76vw;
+position: absolute;
+display: flex;
+}
+.sign button{
+padding: 9px 12px;
+margin: 5px;
+border-radius: 9px;
+background-color: blueviolet;
+color: white;
+font-weight: 700;
+}
+.sign button:hover{
+filter: brightness(50%);
+}
+.img00{
+    width: 16vw;
+    height: 31vh;
+    margin: 25px 25px;
+    border: 4px solid orangered;
+    border-radius: 15px;
+}
+.cla h4{
+    background-color: orangered;
+    color: white;
+    width: 12vw;
+    margin: -3vh 56px;
+}
+.img01{
+
+    margin:59px 25px ;
+    width: 16vw;
+    height: 31vh;
+    border: 4px solid orangered;
+    border-radius: 15px;
+}
+.img02{
+    position: absolute;
+    width: 16vw;
+    height: 31vh;
+    border: 4px solid orangered;
+    border-radius: 15px;
+    margin:-71vh 80vw;
+}
+.img03{
+    position: absolute;
+    width: 16vw;
+    height: 31vh;
+    border: 4px solid orangered;
+    border-radius: 15px;
+    margin:-36vh 80vw;
+}
+.cl h4{
+    
+        background-color: orangered;
+        color: white;
+        width: 10vw;
+        margin: 2vh 82vw;
+        padding-left: 65px; 
+    
+}
+.class h4{
+    background-color: orangered;
+    color: white;
+    width: 10vw;
+    margin: -6vh 3vw;
+    padding-left: 65px; 
+}
+.clas h4{
+    position: absolute;
+    margin: -38vh 82vw;
+    background-color: orangered;
+    color: white;
+    width: 10vw;
+    padding-left: 45px;
+}
+.containe{
+    position:absolute;
+    margin: -71vh 24vw;
+    width: 50%;
+    height: 73vh;
+ 
+    background-color:rgb(212, 158, 176);
+   
+    border: 3px solid greenyellow;
+    border-radius: 9px;
+    box-shadow: 3px 3px 6px rgb(114, 77, 9),
+                6px 3px 9px orangered;
+}
+.wrong{
+    visibility: hidden;
+}
+.form{
+    position: relative;
+    display: block;
+    margin: 1vh 12vw;
+    padding: 12px 25px;
+}
+.name input{
+
+    height: 29px;
+    width: 15vw;
+    margin-top: 20px;
+    border-radius: 9px;
+    padding-left: 25px;
+    font-size: 16px;
+    display: grid;
+    grid-row: auto auto;
+    
+}
+.name .nam{
+    margin-left: -8vw;
+}
+.name .email{
+    margin: -4vh 11vw;
+    margin-bottom: 25px;
+}
+.sex{
+    margin-top: 2vh;
+    margin-left: -7.8vw;
+}
+label{
+    font-weight: 800;
+  
+}
+.sex input{
+    margin-left: 5vw;
+  
+}
+.selector{
+    margin-left: -8vw;
+    margin-bottom: 25px;
+}
+.selector select{
+margin-left: 5vw;
+    margin-top: -17vh;
+    padding: 8px 8px;
+    border-radius: 9px;
+   
+}
+.selector .pay{
+    margin-left: 1vw;
+}
+.note{
+    margin-left: -8vw;
+}
+.duration{
+    margin-left: 18vw;
+    margin-top: -16vh;
+}
+.duration input{
+    position: absolute;
+    padding: 8px 8px;
+    border-radius: 9px;
+    margin-top: -1vh;
+    margin-left: .4vw;
+}
+.date{
+    position: absolute;
+    margin:29px 18vw;
+}
+.date input{
+    position: absolute;
+    margin: -1vh 2.4vw;
+    padding: 8px 8px;
+    border-radius: 9px;
+}
+.name .namy{
+    margin-left: -8vw;
+    margin-top: 15vh;
+}
+.name .emaily{
+margin:-4vh 11vw;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+.submit button{
+    padding: 12px 25px;
+    border: 2px solid orange;
+}
+.submit button:hover{
+    background-color: red;
+    color: white;
+}
+.check{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 0 6vw;
+}
+.contain{
+    position: absolute;
+    background-color: aqua;
+    width: 35%;
+    height: 15vh;
+    border: 2px solid orange;
+    border-radius: 12px;
+    top: -22vh;
+    scale: 0;
+    
+}
+H3{
+    padding-top: 3vw;
+    padding-left: 5vw;
+}
+h6{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin-top: 10vh;
+}
+#head .rad{
+    visibility: hidden;
+    display: none;
+}
+
+#head .rad{
+    visibility: hidden;
+}
+#head .rad:hover{
+    background-color: red;
+}
+#head .yo{
+    position: absolute;
+    display: block;
+    margin-left: 5vw;
+    width: 90%;
+    margin-top: 31px;
+    align-items: center;
+    background-color: teal;
+    border-radius: 12px;
+    height: 15vh;
+    visibility: hidden;
+}
+.yo li{
+    margin-top: 8px;
+    padding-left: 12px;
+    color: white;
+    font-weight: 600;
+}
+.yo li:hover{
+    background-color: coral;
+}
+.wrong{
+    visibility: hidden;
+}
+/*nuhu*/
+.containerr{
+    position:absolute;
+    margin: -71vh 24vw;
+    
+    height: 73vh;
+ 
+    background-color:rgb(212, 158, 176);
+   
+    border: 3px solid greenyellow;
+    border-radius: 9px;
+    box-shadow: 3px 3px 6px rgb(114, 77, 9),
+                6px 3px 9px orangered;
+    margin: 10vh 4vw ;
+    width: 90%;
+}
+.containerr h3{
+    display: flex;
+    justify-content: center;
+}
+
+.glass{
+    height: 220px;
+    width: 180px;
+    margin: 10px 12px;
+    border: 2px solid orange;
+    border-radius: 12px;
+}
+.name .glass{
+    position: absolute;
+    margin-left: 2vw ;
+    margin-top: 2vh;
+}
+.name h4{
+    position: absolute;
+    color:red;
+    font: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin:27vh 3vw;
+    width: 8%;
+    padding-left: 2vw;
+    cursor: pointer;
+    background-color: white;
+}
+.email .glass{
+    position:absolute ;
+    margin: 2vh 59vw;
+}
+.email h4{
+    position: absolute;
+    color:red;
+    font: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin:26vh 60vw;
+    width: 8%;
+    padding-left: 2vw;
+    cursor: pointer;
+    background-color: white;
+}
+
+.email h4:hover{
+    background-color: blue;
+    color: white;
+}
+.email h4::selection{
+    background-color: yellow;
+    color:blue;
+}
+.pass .glass{
+    position: absolute;
+    margin: 2vh 16vw;
+}
+.pass h4{
+    color:red;
+    font: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin-left: 17vw;
+    margin-top: 27vh;
+    position: absolute;
+    cursor: pointer;
+    background-color: whitesmoke;
+    width: 10%;
+    padding-left: 20px;
+}
+.pass h4:hover{
+    background-color: blue;
+    color: white;
+}
+.pass h4::selection{
+    background-color: yellow;
+    color:blue;
+}
+.namey .glass{
+    position: absolute;
+    margin: 2vh 31vw;
+}
+.namey h4{
+    position: absolute;
+    color:red;
+    font: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin:27vh 30vw;
+    cursor: pointer;
+    background-color: whitesmoke;
+    width: 13%;
+    padding-left: 20px;
+}
+.namey h4:hover{
+    background-color: blue;
+    color: white;
+}
+.namey h4::selection{
+    background-color: yellow;
+    color:blue;
+}
+.nameee .glass{
+    position: absolute;
+    margin: 2vh 45vw;
+}
+.nameee h4{
+    position: absolute;
+    color:red;
+    font: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin:26vh 45.5vw;
+    padding-left: 30px;
+    width: 10%;
+    cursor: pointer; 
+    background-color: whitesmoke;
+}
+.namee .glass{
+    position: absolute;
+    margin: 2vh 73vw;
+}
+.namee h4{
+    position: absolute;
+    color:red;
+    font: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin:26vh 73.5vw;
+    padding-left: 30px;
+    width: 10%;
+    cursor: pointer; 
+    background-color: whitesmoke;
+}
+.namee h4:hover{
+    background-color: blue;
+    color: white;
+}
+.namee h4::selection{
+    background-color: yellow;
+    color:blue;
+}
+.nameee h4::selection{
+    border: 3px solid yellow;
+    background-color: yellow;
+    color:blue;
+}
+.namee h4::selection{
+    background-color: yellow;
+    color:blue;
+    cursor: pointer;
+}
+.submitt{
+    display: flex;
+    justify-content: center;
+    margin-top: 49vh;
+}
+.submitt button{
+    padding: 12px 25px;
+    border: 2px solid orange;
+}
+.submitt button:hover{
+    background-color: red;
+    color: white;
+}
+
+.rad{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.open{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -45px;
+}
+#btn{
+    position: absolute;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background-color: rgb(5, 138, 5);
+    color: white;
+    font-size: 14px;
+   transform: translate(-50%,-50%);
+   margin-left: 170px;
+}
+#btn:hover{
+    filter: brightness(80%);
+}
+#ok{
+    padding: 5px 129px;
+    margin-left: 50px;
+    background-color:  rgb(5, 138, 5);
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+#ok:hover{
+    background-color: lime;
+}
+.pulpy{
+    position: absolute;
+    width: 30%;
+    background-color: white;
+    height: 160px;
+    margin-top: 0%;
+    margin-left: 120px;
+    padding-left: 30px;
+    border-radius: 15px;
+   transform: scale(0.1);
+   top:0px;
+   visibility: hidden;
+ transition: tranform 0.4s, top 0.8s;
+    
+}
+.open-popup{
+    transform: scale(1);
+    top: 260px;
+    visibility: visible;
+    width: 34%;
+}
+.pulpy h2{
+    padding-left: 130px;
+    margin-top: 25px;
+    padding-top: -12px;
+}
+.pulpy p{
+    margin-left: 53px;
+    margin-top: 5px;
+    
+}
+.pulpy img{
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 170px;
+    margin-top: -24px;
+    
+}
+@media (max-width:1024px) {
+    #head{
+        height: 1vh;
+        padding-bottom: 10vh;
+        position: relative;
+        display: flex;
+        margin: 0px 6px;
+        background-color: rgb(238, 231, 231);
+        margin: 0;
+        border-bottom: 2px solid orangered;
+}
+#head .yo{
+    position: absolute;
+    display: block;
+    margin-left: 59vw;
+    width: 40%;
+    margin-top: 10vh;
+    align-items: center;
+    background-color: teal;
+    border-radius: 12px;
+    height: 28vh;
+    visibility:visible;
+    z-index: 3;
+    padding-top: 12px;
+}
+.wrong{
+    visibility: hidden;
+    display: none;
+}
+   #head .nav{
+        visibility:hidden;
+        
+    }
+    #head .sign{
+        position: absolute;
+        display: flex;
+        margin: 13px 55vw;
+        
+    }
+    .sign button{
+        padding: 7px 19px;
+        visibility: hidden;
+    }
+    #head .logo{
+        position: absolute;
+        width: 80px;
+        height: 78px;
+    }
+   #head .logo_text{
+    position: absolute;
+        margin:-9vh 1vw;
+        font-size: 16px;
+        list-style: none;
+        text-decoration: none;
+    }
+   #head .pop{
+        
+     position: absolute;
+     margin-left: 11vw;
+     margin-top: 39px;
+        font-size: 13px;
+        font-weight: 200;
+        color: black;
+    }
+  #head .rad{
+    visibility: visible;
+  }
+  #head .rad:hover{
+    background-color: red;
+  }
+    .form{
+        display: block;
+        margin: 8px 2vw;
+        padding: 12px 25px;
+    }
+    .name input{
+        position: absolute;
+        height: 21px;
+        width: 26vw;
+        margin-top: 15px;
+       
+    }
+    .name{
+        margin-left: 50px;
+    }
+  
+    .sex input{
+        margin-left: 3vw;
+      
+    }
+    .selector select{
+       
+        width: 45%;
+    }
+    .duration input{
+        width: 45%;
+       
+    }
+    .date input{
+        margin: 12px 4.3vw;
+    }
+    .submit{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .submit button{
+        padding: 12px 25px;
+        border: 2px solid orange;
+    }
+    .contain{
+        position: absolute;
+        background-color: aqua;
+        width: 64%;
+        height: 15vh;
+        border: 2px solid orange;
+        border-radius: 12px;
+        top: -22vh;
+        scale: 0;
+        
+    }
+    .check{
+        position: absolute;
+        padding-left: 5vw;
+        
+    }
+    H3{
+        padding-top: 9vw;
+        padding-left: 9vw;
+    }
+    h6{
+        display: flex;
+        justify-content: center;
+    }
+    .img00, .img01,
+    .img02, .img03{
+    display: none;
+    }
+    .cl h4{
+    
+        display: none;
+    
+}
+.class h4{
+    display: none;
+}
+.clas h4{
+display: none;
+}
+.cla h4{
+ display: none;
+}  
+.containe{
+    position: absolute;
+    margin: 12vh 10vw;
+    width: 80%;
+    height: 73vh;
+  
+} 
+.name input{
+position: relative;
+    height: 29px;
+    width: 28vw;
+}
+.name .nam{
+    margin-left: 0vw;
+}
+.name .email{
+    margin: -4vh 36vw;
+    margin-bottom: 20px;
+}
+.sex{
+    margin-top: 2vh;
+    margin-left: 0vw;
+}
+
+.sex input{
+    margin-left: 16vw;
+  
+}
+.selector{
+    margin-left: -2vw;
+    margin-bottom: 19px;
+}
+.selector select{
+    width: 19vw;
+
+    margin-top: -1vh;
+    padding: 8px 8px;
+    border-radius: 9px;
+   
+}
+.selector .pay{
+    margin-left: 1vw;
+}
+.note{
+    margin-top: 11vh;
+    margin-left: -2vw;
+}
+.duration{
+    margin-left: 49vw;
+    margin-top: -17vh;
+}
+.duration input{
+    width: 29px;
+    position: absolute;
+    padding: 8px 8px;
+    border-radius: 9px;
+    margin-top: -1vh;
+    margin-left: .4vw;
+}
+.date{
+    position: absolute;
+    margin:39px -2vw;
+}
+.date input{
+    position: absolute;
+    margin: -1vh 3vw;
+
+}
+.name .namy{
+    margin-left: -4vw;
+    margin-top: 15vh;
+}
+.name .emaily{
+margin:-4vh 34vw;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+  
+
+}
+.submit button{
+    padding: 12px 25px;
+    border: 2px solid orange;
+}
+ul{
+   display: flex;
+   justify-content: center;
+}
+li{
+    margin-left: 25px;
+}
+#head .rad{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left:  40vw;
+}
+/*nuhu*/
+.containerr h3{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+.glass{
+    height: 150px;
+    width: 100px;
+    margin: 10px 19px;
+    border: 2px solid orange;
+    border-radius: 12px;
+}
+/*pink shit on glasses*/
+.name .glass{
+    position: absolute;
+    margin: 2vh -5px; 
+}
+.name h4{
+    margin: 20vh -2px;
+}
+
+/*dark lady*/
+.pass .glass{
+    position: absolute;
+    margin: 2vh 59vw;
+}
+.pass h4{
+    margin:20vh 56vw;
+    
+    width: 22%;
+    padding-left: 20px;
+}
+/*lady on black*/
+.namey .glass{
+    position: absolute;
+    margin: 28vh 4vw;
+}
+.namey h4{
+    margin:47vh 2vw;
+    width: 23%;
+    padding-left: 10px;
+}
+/*lady on red gown*/
+.nameee .glass{
+    position: absolute;
+    margin: 28vh 32vw;
+}
+.nameee h4{
+     margin:47vh 32vw;
+    width: 19%;
+    padding-left: 12px;
+    background-color: white;
+    color: red;
+    font-weight: 800;
+}
+
+/*mirror babe*/
+.namee .glass{
+    position: absolute;
+    margin: 28vh 60vw;
+}
+.namee h4{
+    margin:47vh 57vw;
+    width: 19%;
+    padding-left: 12px;
+    background-color: white;
+    color: red;
+    font-weight: 800;
+    font-size: 17px;
+}
+/*lady on white*/
+.email .glass{
+    position:absolute ;
+    margin: 2vh 32vw; 
+}
+.email h4{
+    margin:20vh 31vw;
+    width: 16%;
+    padding-left: 20px;   
+}
+.submitt{
+    position: absolute;
+    margin: 56vh 35vw;
+}
+.submitt button{
+    padding: 12px 25px;
+    border: 2px solid orange;
+}
+.submitt button:hover{
+    background-color: red;
+    color: white;
+}
+.rad{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left:  42vw;
+}
+}

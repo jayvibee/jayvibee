@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: aquamarine;
+    background-image: url(IMG_1374.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: round;
+    overflow: hidden;
+    background-blend-mode:luminosity;
+}
+    #head{
+        position: relative;
+        display: flex;
+        margin: 0px 0px;
+        background-color: rgb(238, 231, 231);
+        justify-content: space-between;
+        border-bottom: 2px solid orangered;
+        height: 12vh;
+    }
+
+#head .logo{
+    width: 90px;
+    height: 90px;
+    margin: 2px 5px;
+}
+#head .logo_text{
+    position: absolute;
+    margin-left: -93vw;
+    width: 100%;
+    margin-top: 18px;
+    color: red;
+    font-weight: 800;
+    font-size: 19px;
+}
+#head .pop{
+    position: absolute;
+    margin-top: 49px;
+    margin-left: 8vw;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+#head .navy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 34vw;
+    margin-top: 15px;
+    position: absolute;
+    
+}
+.navy a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 16px;
+    margin: 6px;
+    
+}
+.navy a:hover{
+    color: red;
+}
+#head .sign{
+    margin: 23px 76vw;
+    position: absolute;
+    
+}
+.sign button{
+    padding: 9px 12px;
+    margin: 5px;
+    border-radius: 9px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+}
+.sign button:hover{
+  filter: brightness(50%);
+}
+.container{
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    background-color: olivedrab;
+    width: 40vw;
+    margin:12vh 32vw;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px white,
+    3px 3px 6px 9px rgb(122, 122, 122);
+}
+.profile{
+    height: 150px;
+    margin-top: 12px;
+    margin-left: 15vw;
+}
+.names{
+    justify-content: center;
+    display: flex;
+    padding-top: 4vh;
+    
+}
+.names input{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 9px;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 9px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-left: 18vw;
+    padding: 12px 18px;
+    background-color: orange;
+    
+}
+.btn:hover{
+    filter: brightness(40%);
+}
+#head .rad{
+    visibility: hidden;
+}
+.yo{
+    position: absolute;
+    display: block;
+    margin-left: 5vw;
+    width: 90%;
+    margin-top: 31px;
+    align-items: center;
+    background-color: teal;
+    border-radius: 12px;
+    height: 15vh;
+    visibility: hidden;
+}
+.yo li{
+    margin-top: 8px;
+    padding-left: 12px;
+    color: white;
+    font-weight: 600;
+}
+.yo li:hover{
+    background-color: coral;
+}
+.wrong{
+    visibility: hidden;
+}
+@media (max-width:1024px) {
+    #head{
+        height: 1vh;
+        padding-bottom: 10vh;
+        position: relative;
+        display: flex;
+        margin: 0px 6px;
+        background-color: rgb(238, 231, 231);
+        margin: 0;
+        border-bottom: 2px solid orangered;
+}
+#head .yo{
+    position: relative;
+    display: block;
+    margin-left: 59vw;
+    width: 40%;
+    margin-top: 10vh;
+    align-items: center;
+    background-color: teal;
+    border-radius: 12px;
+    height: 28vh;
+    visibility:visible;
+    z-index: 3;
+    padding-top: 12px;
+}
+
+   #head .navy{
+        visibility:hidden;
+        
+    }
+    #head .sign{
+        position: absolute;
+        display: flex;
+        margin: 13px 55vw;
+        
+    }
+    .sign button{
+        padding: 7px 19px;
+        visibility: hidden;
+    }
+    #head .logo{
+        position: absolute;
+        width: 80px;
+        height: 78px;
+    }
+   #head .logo_text{
+    position: absolute;
+        margin:2vh 10vw;
+        font-size: 16px;
+        list-style: none;
+        text-decoration: none;
+    }
+   #head .pop{
+        
+     position: absolute;
+     margin-left: 10vw;
+     margin-top: 39px;
+        font-size: 14px;
+        font-weight: 200;
+        color: black;
+    }
+  .wrong{
+    visibility: hidden;
+  }
+    .container{
+        min-height: 65vh;
+        width: 60vw;
+        margin:12vh 22vw;
+    }
+    .profile{
+        height: 130px;
+        margin-left: 25vw;
+    }
+    .names input{
+        width: 36vw;
+        height: 2vh;
+    }
+    .btn{
+        margin-left: 23vw;
+        padding: 12px 18px;
+        background-color: orange;
+        border: 2px solid rgb(105, 6, 6);
+        
+    }
+    #head .rad{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-left:  38vw;
+        visibility: visible;
+    }
+    .rad:hover{
+        background-color: red;
+    }
+    #head .yo{
+        position: relative;
+        display: block;
+        margin-left: 59vw;
+        width: 40%;
+        margin-top: 10vh;
+        align-items: center;
+        background-color: teal;
+        border-radius: 12px;
+        height: 28vh;
+        visibility:visible;
+        z-index: 3;
+        padding-top: 12px;
+    }
+}
