@@ -23,8 +23,8 @@ body{
 
 #head .logo{
 width: 90px;
-height: 90px;
-margin: 2px 5px;
+height: 80px;
+margin: 1px 3px;
 }
 #head .logo_text{
 position: absolute;
@@ -65,7 +65,7 @@ margin: 6px;
 color: red;
 }
 #head .sign{
-margin: 23px 76vw;
+margin: 13px 76vw;
 position: absolute;
 display: flex;
 }
@@ -125,7 +125,7 @@ filter: brightness(50%);
 
 .contact .date{
     position: absolute;
-    margin-top: 25vh;
+    margin-top: 21vh;
     margin-left: 13vw;
 }
 .rad{
@@ -198,11 +198,11 @@ filter: brightness(50%);
     #head .logo{
         position: absolute;
         width: 80px;
-        height: 75px;
+        height: 65px;
     }
    #head .logo_text{
     position: absolute;
-        margin:2vh 10vw;
+        margin:2vh 18vw;
         font-size: 16px;
         list-style: none;
         text-decoration: none;
@@ -210,7 +210,7 @@ filter: brightness(50%);
    #head .pop{
         
      position: absolute;
-     margin-left: 10vw;
+     margin-left: 18vw;
      margin-top: 35px;
         font-size: 14px;
         font-weight: 200;
@@ -219,6 +219,22 @@ filter: brightness(50%);
   .wrong{
     visibility: hidden;
   }
+  .contact{
+    
+    margin: 12vh 10vw;
+    height: 52vh;
+    width: 80%;
+    
+}
+.contact h5{
+    margin-top: 5vh;
+}
+
+.contact .date{
+    position: absolute;
+    margin-top: 14vh;
+    margin-left: 18vw;
+}
   #head .rad{
     display: block;
     position: absolute;

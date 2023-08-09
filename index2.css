@@ -25,8 +25,8 @@ body{
 
 #head .logo{
 width: 90px;
-height: 90px;
-margin: 2px 5px;
+height: 80px;
+margin: 1px 3px;
 }
 #head .logo_text{
 position: absolute;
@@ -67,7 +67,7 @@ margin: 6px;
 color: red;
 }
 #head .sign{
-margin: 23px 76vw;
+margin: 15px 76vw;
 position: absolute;
 
 }
@@ -106,14 +106,31 @@ input{
     border: none;
     
 }
+.container .name{
+    display: flex;
+}
 .name input{
     padding-left: 19px;
+}
+.container .email{
+    display: flex;
 }
 .email input{
     padding-left: 19px;
 }
+.container .pass{
+    display: flex;
+}
 .pass input{
     padding-left: 19px;
+}
+.container .checky{
+   margin-left: 45%;
+   margin-top: 4px;
+}
+.container  h3{
+    margin-left: 50%;
+    margin-top: -15px;
 }
 .input{
     padding-top: 15px;
@@ -213,21 +230,22 @@ input{
         visibility: hidden;
     }
     #head .logo{
+        border: 1.5px solid orangered;
+        border-radius: 12px;
         position: absolute;
-        width: 80px;
-        height: 78px;
+        width: 10vw;
+        height: 10vh;
+        margin-top: 1px;
+        margin-left: 1px;
     }
    #head .logo_text{
-    position: absolute;
-        margin:2vh -28vw;
+        margin:2vh -16vw;
         font-size: 16px;
-        list-style: none;
-        text-decoration: none;
     }
    #head .pop{
         
      position: absolute;
-     margin-left: 10vw;
+     margin-left: 13vw;
      margin-top: 34px;
         font-size: 14px;
         font-weight: 200;
@@ -280,5 +298,9 @@ input{
         width: 50px;
         height: 50px;
         margin-left:  35vw;
+    }
+    .container h3{
+        margin-left: -30px;
+        margin-top: 2px;
     }
 }

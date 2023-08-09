@@ -25,8 +25,8 @@ body{
 
 #head .logo{
     width: 90px;
-    height: 90px;
-    margin: 2px 5px;
+    height: 80px;
+    margin: 1px 3px;
 }
 #head .logo_text{
     position: absolute;
@@ -67,7 +67,7 @@ body{
     color: red;
 }
 #head .sign{
-    margin: 23px 76vw;
+    margin: 12px 76vw;
     position: absolute;
     
 }
@@ -87,7 +87,7 @@ body{
     
     justify-content: center;
     align-items: center;
-    min-height: 65vh;
+    min-height: 70vh;
     background-color: olivedrab;
     width: 40vw;
     margin:12vh 32vw;
@@ -194,22 +194,23 @@ body{
         visibility: hidden;
     }
     #head .logo{
+        border: 1.5px solid orangered;
+        border-radius: 12px;
         position: absolute;
-        width: 80px;
-        height: 78px;
+        width: 10vw;
+        height: 10vh;
+        margin-top: 1px;
+        margin-left: 1px;
     }
    #head .logo_text{
-    position: absolute;
-        margin:2vh 10vw;
+        margin:2vh 12vw;
         font-size: 16px;
-        list-style: none;
-        text-decoration: none;
     }
    #head .pop{
         
      position: absolute;
-     margin-left: 10vw;
-     margin-top: 39px;
+     margin-left: 13vw;
+     margin-top: 34px;
         font-size: 14px;
         font-weight: 200;
         color: black;
@@ -218,13 +219,17 @@ body{
     visibility: hidden;
   }
     .container{
-        min-height: 65vh;
+        min-height: 61vh;
         width: 60vw;
         margin:12vh 22vw;
+        position: relative;
     }
     .profile{
         height: 130px;
-        margin-left: 25vw;
+       padding-top: 15px;
+       padding-left: 15px;
+        display: flex;
+        justify-content: center;
     }
     .names input{
         width: 36vw;

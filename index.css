@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 body{
     background-color: aquamarine;
+    overflow-x: hidden;
 }
 #head{
     position: relative;
@@ -13,7 +15,7 @@ body{
     background-color: rgb(238, 231, 231);
     justify-content: space-between;
     border-bottom: 2px solid orangered;
-    
+    margin-bottom: -27px;
 }
 #head .logo{
     width: 70px;
@@ -22,7 +24,7 @@ body{
 }
 #head h3{
     position: absolute;
-    margin-left: 5.5vw;
+    margin-left: 6.5vw;
     margin-top: 10px;
     color: red;
     font-weight: 800;
@@ -31,7 +33,7 @@ body{
 #head .pop{
     position: absolute;
     margin-top: 38px;
-    margin-left: 5.5vw;
+    margin-left: 6.5vw;
     font-size: 16px;
     font-weight: 600;
     color: blueviolet;
@@ -58,9 +60,9 @@ body{
 }
 #head .sign{
     position: absolute;
-    margin: 23px 78vw;
+    margin: 17px 78vw;
     width: 14%;
-    
+    display: flex;
 }
 .sign button{
     padding: 9px 12px;
@@ -69,11 +71,13 @@ body{
     background-color: blueviolet;
     color: white;
     font-weight: 700;
+    
 }
 .sign button:hover{
   filter: brightness(50%);
 }
 .continer{
+    margin-top: 27px;
     position: relative;
     padding-top: 50px;
     background-image: url(IMG_1374.JPG);
@@ -328,9 +332,9 @@ footer h7{
    #head .logo{
         position: absolute;
         width: 8vw;
-        height: 11vh;
-        margin-top: -1px;
-        margin-left: -1px;
+        height: 8vh;
+        margin-top: 8px;
+        margin-left: 1px;
     }
    #head .logo_text{
         margin:2vh 9vw;
@@ -352,20 +356,26 @@ footer h7{
         position:relative;
         background-repeat: repeat-y;
         border-bottom: 2px solid orange;
+        overflow: hidden;
     }
     h4{
         position: absolute;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         padding: 9px 4px;
         margin-left: 2vw;
-        font-size: 13px;
+        font-size: 11px;
+        margin-top:-30px ;
     }
     #men{
         display: block;
-        margin:7vh 36vw;
+        margin:7vh 23vw;
     }
     .open a:hover{
         color: red;
+    }
+    #men .serv img{
+        width: 50vw;
+        height: 30vh;
     }
    #head .sign .rad{
         display: block;
@@ -382,7 +392,126 @@ footer h7{
         color: white;
         padding-top: 12px;
     }
+    .regular img{
+        width: 50vw;
+    }
+    .regular p{
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+    }
     footer p{
         margin-left: 3vw;
     }
 }
+/*@media (min-width:323px) {
+    #head{
+        height: 1vh;
+        padding-bottom: 7vh;
+        position: relative;
+        display: flex;
+        margin: 0px 6px;
+        background-color: rgb(238, 231, 231);
+        margin: 0;
+        border-bottom: 2px solid orangered;
+}
+#head .yo{
+    position: relative;
+    display: block;
+    margin-left: 59vw;
+    width: 40%;
+    margin-top: 10vh;
+    align-items: center;
+    background-color: teal;
+    border-radius: 12px;
+    height: 28vh;
+    visibility:visible;
+    z-index: 3;
+    padding-top: 12px;
+}
+
+   #head .navy{
+        visibility:hidden;
+        
+    }
+    #head .sign{
+        position: absolute;
+        display: flex;
+        margin: 13px 55vw;
+        
+    }
+    .sign button{
+        padding: 7px 19px;
+        visibility: hidden;
+    }
+   #head .logo{
+        position: absolute;
+        width: 8vw;
+        height: 7vh;
+        margin-top: 0.5px;
+        margin-left: 0px;
+    }
+   #head .logo_text{
+        margin:9px 9vw;
+        font-size: 13px;
+    }
+   #head .pop{
+        
+     position: absolute;
+     margin-left: 10vw;
+     margin-top: 27px;
+        font-size: 14px;
+        font-weight: 200;
+        color: black;
+    }
+  
+.continer{
+        margin-top: 0vh;
+        height: 40vh;
+        position:relative;
+        background-repeat: repeat-y;
+        border-bottom: 2px solid orange;
+    }
+    h4{
+        position: absolute;
+        letter-spacing: 2px;
+        padding: 9px 4px;
+        margin-left: 2vw;
+        font-size: 11px;
+        margin-top: -25px;
+    }
+  
+    #men{
+        display: block;
+        min-height: 100%;
+        align-content: center;
+        margin:4vh 19vw;
+      
+    }
+    .open a:hover{
+        color: red;
+    }
+    #men .serv img{
+        width: 50vw;
+        height: 30vh;
+    }
+   #head .sign .rad{
+        display: block;
+        position: absolute;
+        width: 5vh;
+        height: 5vh;
+        margin-top: -2px;
+        margin-left:  33vw;
+        visibility: visible;
+    }
+    .regular h3{
+        width: 100%;
+        margin: 12px 7vw;
+        color: white;
+        padding-top: 12px;
+    }
+    footer p{
+        margin-left: 3vw;
+    }
+}
+*/

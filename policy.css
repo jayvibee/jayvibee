@@ -23,8 +23,8 @@ body{
 
 #head .logo{
 width: 90px;
-height: 90px;
-margin: 2px 5px;
+height: 80px;
+margin: 1px 3px;
 }
 #head .logo_text{
 position: absolute;
@@ -65,7 +65,7 @@ margin: 6px;
 color: red;
 }
 #head .sign{
-margin: 23px 76vw;
+margin: 10px 76vw;
 position: absolute;
 display: flex;
 }
@@ -180,11 +180,11 @@ filter: brightness(50%);
     #head .logo{
         position: absolute;
         width: 80px;
-        height: 75px;
+        height: 65px;
     }
    #head .logo_text{
     position: absolute;
-        margin:2vh 12.8vw;
+        margin:2vh 17vw;
         font-size: 16px;
         list-style: none;
         text-decoration: none;
@@ -192,7 +192,7 @@ filter: brightness(50%);
    #head .pop{
         
      position: absolute;
-     margin-left: 13vw;
+     margin-left: 18vw;
      margin-top: 35px;
         font-size: 14px;
         font-weight: 200;
